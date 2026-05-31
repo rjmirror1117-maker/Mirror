@@ -20,12 +20,19 @@
 
 ## 安装方式
 
-**Claude 桌面版（Cowork）：**
-1. 进入 **设置 → Skills**
-2. 点击 **Install from file**
-3. 上传 `SortMaster.skill` 文件 ✅
+**方式一：发链接给 AI（最简单）**
+把下面这个链接直接发给 Claude 或其他 AI，说"帮我安装这个 skill"：
+```
+https://github.com/rjmirror1117-maker/Mirror
+```
 
-**Claude Code / Codex CLI / OpenCode 等命令行工具：**
+**方式二：Claude 桌面版（Cowork）手动安装：**
+1. 下载 `SortMaster.skill` 文件
+2. 进入 **设置 → Skills**
+3. 点击 **Install from file**
+4. 上传文件 ✅
+
+**方式三：Claude Code / Codex CLI / OpenCode 等命令行工具：**
 将 `SortMaster.skill` 解压后放入项目的 `.claude/skills/` 目录即可。
 
 > 兼容平台：Claude Code · Codex CLI · Cursor · Gemini CLI · OpenCode · 任何支持 Skill 的 AI 工具
